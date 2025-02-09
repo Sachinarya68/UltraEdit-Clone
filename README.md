@@ -1,2 +1,2 @@
 # UltraEdit-Clone
-This is non-responsive clone of UltraEdit website
+This is a non-responsive clone of UltraEdit website
