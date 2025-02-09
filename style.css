@@ -1,0 +1,846 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+:root {
+    --bgcolor: white;
+    --nav--textcolor: rgba(0, 0, 0, 0.766);
+    --button--bg--color: #00b6d1;
+}
+
+.header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1000;
+    background-color: var(--bgcolor);
+}
+
+.nav {
+    display: flex;
+    position: relative;
+    background-color: var(--bgcolor);
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    column-gap: 300px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.img {
+    height: 56.5px;
+    width: 175.4px;
+    position: relative;
+    top: 0px;
+    left: 13.5px;
+    cursor: pointer;
+}
+
+.nav ul {
+    display: flex;
+    position: relative;
+    left: 0px;
+    bottom: 2.5px;
+}
+
+.nav ul li {
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    margin-right: 23px;
+    list-style-type: none;
+    font-size: 16px;
+}
+
+.nav ul li svg {
+    display: flex;
+    padding: 5px;
+}
+
+#translate {
+    position: relative;
+    top: 5px;
+    left: -4px;
+}
+
+#search {
+    position: relative;
+    top: 1px;
+    left: -4px;
+}
+
+.main {
+    padding: 65px 65px 0px 65px;
+    margin: auto;
+}
+
+.head {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 48px;
+    /* letter-spacing: -0.5px; */
+}
+
+.p2 {
+    font-weight: 700;
+}
+
+.head img {
+    margin-top: 19px;
+    margin-left: 23px;
+}
+
+.content {
+    padding: 40px 170px 33px 170px;
+    margin: auto;
+    font-size: 24px;
+}
+
+.text {
+    text-align: center;
+}
+
+.download {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    background-color: var(--button--bg--color);
+    color: var(--bgcolor);
+    border-style: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    height: 48px;
+    padding: 12px 20px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(70px) translateX(-168px);
+    background-color: var(--bgcolor);
+}
+
+.icon img {
+    height: 60px;
+    transform: translateX(-20px) translateY(7px);
+}
+
+.downloadue h3 {
+    font-size: 24px;
+}
+
+.downloadue h3 small {
+    font-size: 14px;
+}
+
+.links {
+    margin-top: 60px;
+    display: grid;
+    transform: translateY(50px);
+    grid-template-columns: repeat(3, 302.5px);
+    grid-template-rows: repeat(4, 200px);
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.eng {
+    grid-row: 1/2;
+    grid-column: 1/2;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.eng h3 {
+    font-size: 20px;
+    font-weight: 700;
+    transform: translateY(14px) translateX(188px);
+}
+
+.eng button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(90px);
+    justify-content: center;
+    align-items: center;
+}
+
+.eng button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.eng button a::visited {
+    text-decoration: none;
+}
+
+.hasheng .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-100px);
+}
+
+.hasheng .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-97px);
+}
+
+.german {
+    grid-row: 1/2;
+    grid-column: 2/3;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.german h3 {
+    font-size: 20px;
+    font-weight: 700;
+    transform: translateY(14px) translateX(210px);
+}
+
+.german .sub {
+    font-size: 12px;
+    display: flex;
+    transform: translateY(55px) translateX(150px);
+}
+
+.german button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(66px);
+    justify-content: center;
+    align-items: center;
+}
+
+.german button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.german button a::visited {
+    text-decoration: none;
+}
+
+.hashger .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-123px);
+}
+
+.hashger .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-121px);
+}
+
+.italian {
+    grid-row: 1/2;
+    grid-column: 3/4;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.italian h3 {
+    font-size: 20px;
+    font-weight: 700;
+    transform: translateY(14px) translateX(205px);
+}
+
+.italian .sub {
+    font-size: 12px;
+    display: flex;
+    transform: translateY(55px) translateX(153px);
+}
+
+.italian button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(75px);
+    justify-content: center;
+    align-items: center;
+}
+
+.italian button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.italian button a::visited {
+    text-decoration: none;
+}
+
+.hashit .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-116px);
+}
+
+.hashit .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-114px);
+}
+
+.spanish {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.spanish h3 {
+    font-size: 20px;
+    font-weight: 700;
+    transform: translateY(14px) translateX(205px);
+}
+
+.spanish .sub {
+    font-size: 12px;
+    display: flex;
+    transform: translateY(55px) translateX(153px);
+}
+
+.spanish button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(75px);
+    justify-content: center;
+    align-items: center;
+}
+
+.spanish button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.spanish button a::visited {
+    text-decoration: none;
+}
+
+.hashsp .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-116px);
+}
+
+.hashsp .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-114px);
+}
+
+.french {
+    grid-row: 2/3;
+    grid-column: 2/3;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.french h3 {
+    font-size: 20px;
+    font-weight: 700;
+    transform: translateY(14px) translateX(205px);
+}
+
+.french .sub {
+    font-size: 12px;
+    display: flex;
+    transform: translateY(55px) translateX(152px);
+}
+
+.french button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(70px);
+    justify-content: center;
+    align-items: center;
+}
+
+.french button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.french button a::visited {
+    text-decoration: none;
+}
+
+.hashfr .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-120px);
+}
+
+.hashfr .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-118px);
+}
+
+.portuguese {
+    grid-row: 2/3;
+    grid-column: 3/4;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.portuguese h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-wrap: nowrap;
+    transform: translateY(14px) translateX(240px);
+}
+
+.portuguese .sub {
+    font-size: 12px;
+    display: flex;
+    text-wrap: nowrap;
+    transform: translateY(55px) translateX(93px);
+}
+
+.portuguese button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(-24px);
+    justify-content: center;
+    align-items: center;
+}
+
+.portuguese button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.portuguese button a::visited {
+    text-decoration: none;
+}
+
+.hashpor .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-213px);
+}
+
+.hashpor .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-210px);
+}
+
+.japanese {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.japanese h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-wrap: nowrap;
+    transform: translateY(14px) translateX(210px);
+}
+
+.japanese .sub {
+    font-size: 12px;
+    display: flex;
+    transform: translateY(55px) translateX(165px);
+}
+
+.japanese button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(80px);
+    justify-content: center;
+    align-items: center;
+}
+
+.japanese button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.japanese button a::visited {
+    text-decoration: none;
+}
+
+.hashjap .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-110px);
+}
+
+.hashjap .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-110px);
+}
+
+.korean {
+    grid-row: 3/4;
+    grid-column: 2/3;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.korean h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-wrap: nowrap;
+    transform: translateY(14px) translateX(205px);
+}
+
+.korean .sub {
+    font-size: 12px;
+    display: flex;
+    transform: translateY(55px) translateX(156px);
+}
+
+.korean button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(75px);
+    justify-content: center;
+    align-items: center;
+}
+
+.korean button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.korean button a::visited {
+    text-decoration: none;
+}
+
+.hashkor .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-115px);
+}
+
+.hashkor .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-113px);
+}
+
+.chinese {
+    grid-row: 3/4;
+    grid-column: 3/4;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.chinese h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-wrap: nowrap;
+    transform: translateY(14px) translateX(207px);
+}
+
+.chinese .sub {
+    font-size: 12px;
+    display: flex;
+    transform: translateY(55px) translateX(167px);
+}
+
+.chinese button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(83px);
+    justify-content: center;
+    align-items: center;
+}
+
+.chinese button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.chinese button a::visited {
+    text-decoration: none;
+}
+
+.hashch .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-106px);
+}
+
+.hashch .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-104px);
+}
+
+.traditionalchinese {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    justify-content: center;
+    background-color: #f9f9f9;
+    height: 200px;
+    width: 302.5px;
+}
+
+.traditionalchinese h3 {
+    font-size: 20px;
+    font-weight: 700;
+    text-wrap: nowrap;
+    transform: translateY(14px) translateX(238px);
+}
+
+.traditionalchinese .sub {
+    font-size: 12px;
+    display: flex;
+    text-wrap: nowrap;
+    transform: translateY(55px) translateX(168px);
+}
+
+.traditionalchinese button {
+    display: flex;
+    background-color: #5cb85c;
+    border-radius: 6px;
+    border: none;
+    height: 32px;
+    width: 130px;
+    transform: translateY(90px) translateX(55px);
+    justify-content: center;
+    align-items: center;
+}
+
+.traditionalchinese button a {
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    text-wrap: nowrap;
+}
+
+.traditionalchinese button a::visited {
+    text-decoration: none;
+}
+
+.hashtrch .code {
+    display: flex;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-size: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    transform: translateY(120px) translateX(-135px);
+}
+
+.hashtrch .text {
+    display: flex;
+    justify-content: center;
+    font-size: 7px;
+    text-wrap: wrap;
+    cursor: pointer;
+    transform: translateY(125px) translateX(-132px);
+}
