@@ -63,14 +63,14 @@ cd ultraedit-clone
 Open index.html in your browser
 Or use Live Server in VS Code for live preview.
 
-🚧 Project Scope
+## 🚧 Project Scope
 This is a static clone — it does not include dynamic interactions, JavaScript, or backend functionality.
 
 The goal is to focus on structure and visuals for front-end practice.
 
 ---
 
-💡 Future Enhancements
+## 💡 Future Enhancements
 ✅ Add JavaScript for interactivity (menu toggle, country dropdown, etc.)
 
 ✅ Build reusable components with React or Vue
@@ -81,13 +81,13 @@ The goal is to focus on structure and visuals for front-end practice.
 
 ---
 
-🙌 Acknowledgements
+## 🙌 Acknowledgements
 Inspired by the official UltraEdit website.
 Built purely for educational, practice, and portfolio purposes.
 
 ---
 
-⭐️ Show Your Support
+## ⭐️ Show Your Support
 If you found this project helpful or inspiring:
 
 ⭐ Star this repository
